@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Internal CSS</title>
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<style>
+body, html {
+	margin: 0px;
+	padding: 0px;
+	border: 0px
+}
+
+body {
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #eeeeee
+}
+
+#page {
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #ffffff;
+	max-width: 1100px;
+}
+
+h1 {
+	margin: 0px;
+    background-color: grey;
+    color: white;
+    padding: 10px
+}
+
+h3{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px
+    }
+
+.books {
+	margin: auto;
+	padding-top: 20px
+}
+
+.bookContainer {
+	display: inline-block;
+}
+
+.bookContainer img {
+	box-shadow: 0px 0px 18px 0px #666666;
+	margin-bottom:5px;
+    margin-right: 85px;
+    margin-left: 85px;
+    cursor: pointer
+}
+
+.focus {
+	transition: all .3s;
+	transform: scale(0.9)
+}
+
+.focus:hover{
+	transform: scale(1)
+}
+
+/*individual background color for books*/
+.android img{
+        background-color: yellow;
+        padding: 10px
+}
+.c img{
+    background-color: red;
+    padding: 10px
+}
+
+.cpp img{
+    background-color: blueviolet;
+    padding: 10px
+}
+
+.css img{
+    background-color: deepskyblue;
+    padding: 10px
+}
+
+.html5 img{
+    background-color: aquamarine;
+    padding: 10px
+}
+
+.java img{
+    background-color: green;
+    padding: 10px
+}
+
+.js img{
+    background-color: chocolate;
+    padding: 10px
+}
+
+.mysql img{
+    background-color: cornflowerblue;
+    padding: 10px
+}
+
+.php img{
+    background-color: greenyellow;
+    padding: 10px
+}		
+</style>
+</head>
+<body>
+<div id="page">
+	<h1>Book Shop</h1>
+	<div class="books">
+		<div class="bookContainer focus android"><img src="image/Android.png" alt="Android book" width="350" height="495" /><br/>Android Notes for Professionals book</div>
+		<div class="bookContainer focus c"><img src="image/C.png" alt="C book" width="350" height="495" /><br/>C Notes for Professionals book</div>
+		<div class="bookContainer focus cpp"><img src="image/CPlusPlus.png" alt="C++ book" width="350" height="495" /><br/>C++ Notes for Professionals book</div>
+		<div class="bookContainer focus css"><img src="image/CSS.png" alt="CSS book" width="350" height="495" /><br/>CSS Notes for Professionals book</div>
+		<div class="bookContainer focus html5"><img src="image/HTML5.png" alt="HTML5 book" width="350" height="495" /><br/>HTML5 Notes for Professionals book</div>
+		<div class="bookContainer focus java"><img src="image/Java.png" alt="Java book" width="350" height="495" /><br/>Java Notes for Professionals book</div>
+		<div class="bookContainer focus js"><img src="image/JavaScript.png" alt="JavaScript book" width="350" height="495" /><br/>JavaScript Notes for Professionals book</div>
+		<div class="bookContainer focus mysql"><img src="image/MySQL.png" alt="LaTeX book" width="350" height="495" /><br/>MySQL Notes for Professionals book</div>
+		<div class="bookContainer focus php"><img src="image/PHP.png" alt="Linux book" width="350" height="495" /><br/>PHP Notes for Professionals book</div>
+    </div>
+    <h3>copyright &copy; 2018. All Rights Reserverd. Md Rubel Amin.</h3>
+    </div>
+</body>
+</html>

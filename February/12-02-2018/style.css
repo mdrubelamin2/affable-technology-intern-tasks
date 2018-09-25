@@ -1,0 +1,105 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+	border: 0px
+}
+
+body {
+	text-align:center;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #eeeeee
+}
+
+#page {
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #ffffff;
+	max-width: 1100px;
+}
+
+h1 {
+	margin: 0px;
+    background-color: grey;
+    color: white;
+    padding: 10px
+}
+
+h3{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    padding: 10px
+}
+.books {
+	margin: auto;
+	padding-top: 20px
+}
+
+.bookContainer {
+	display: inline-block;
+}
+
+.bookContainer img {
+	box-shadow: 0px 0px 18px 0px #666666;
+	margin-bottom:5px;
+    margin-right: 85px;
+    margin-left: 85px;
+    cursor: pointer
+}
+
+.focus {
+	transition: all .3s;
+	transform: scale(0.9)
+}
+
+.focus:hover{
+	transform: scale(1)
+}
+
+/*individual background color for books*/
+.android img{
+        background-color: yellow;
+        padding: 10px
+}
+.c img{
+    background-color: red;
+    padding: 10px
+}
+
+.cpp img{
+    background-color: blueviolet;
+    padding: 10px
+}
+
+.css img{
+    background-color: deepskyblue;
+    padding: 10px
+}
+
+.html5 img{
+    background-color: aquamarine;
+    padding: 10px
+}
+
+.java img{
+    background-color: green;
+    padding: 10px
+}
+
+.js img{
+    background-color: chocolate;
+    padding: 10px
+}
+
+.mysql img{
+    background-color: cornflowerblue;
+    padding: 10px
+}
+
+.php img{
+    background-color: greenyellow;
+    padding: 10px
+}
